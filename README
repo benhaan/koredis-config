@@ -1,0 +1,5 @@
+koredis-config is a redis based config reader (and writer) for Kohana 3
+
+It requires that phpredis is installed and can be downloaded at http://github.com/owlient/phpredis.
+
+To use, replace Kohana::$config->attach(new Kohana_Config_File) with Kohana::$config->attach(new Config_Redis) inside your bootstrap.php file.
